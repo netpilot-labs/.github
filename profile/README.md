@@ -39,12 +39,13 @@ NetPilot:
 
 ### Who uses NetPilot
 
-| Team | Use case |
+| Who | Use case |
 |------|----------|
-| **NetOps** | Import production configs → build a digital twin → test changes before deployment |
-| **Sales Engineering** | Spin up customer-matching demo environments for POCs in minutes |
+| **Network engineers** | Validate OSPF, BGP, MPLS, EVPN changes in an isolated lab before touching production |
+| **NetOps teams** | Import production configs → build a digital twin → test changes before deployment |
+| **Sales engineers** | Spin up customer-matching demo environments for POCs in minutes |
 | **R&D / Lab teams** | Evaluate new architectures, vendors, and protocols without touching production |
-| **Training providers** | Deliver hands-on multi-vendor labs to students at scale |
+| **Training providers** | Deliver hands-on multi-vendor labs to enterprise teams at scale |
 
 ### Resources
 
