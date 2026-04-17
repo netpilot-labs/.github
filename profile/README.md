@@ -1,45 +1,59 @@
-# NetPilot
+<p align="center">
+  <a href="https://netpilot.io">
+    <img src="https://netpilot.io/netpilot-logo.svg" alt="NetPilot" width="280" />
+  </a>
+</p>
 
-**AI for Networks.** Spin up any multi-vendor network in minutes — validate changes, run POCs, and evaluate new architectures using AI that builds real labs with real device CLIs.
+<p align="center">
+  <strong>AI for Networks.</strong> Describe any network in plain English — get a working multi-vendor lab in minutes.
+</p>
 
-Modern network teams lose weeks to lab setup: provisioning VMs, sourcing device images, wiring topologies, writing baseline configs, and maintaining lab infrastructure that drifts out of sync with production. For teams doing continuous change validation, pre-sales POCs, or serious network research, the setup tax is the bottleneck.
-
-NetPilot collapses that work. Describe a network in plain English — or import your production configs — and NetPilot generates the topology, vendor-specific configurations, and deploys a fully working lab to isolated cloud infrastructure with real device CLIs. Minutes, not weeks.
-
-### Built for enterprise teams
-
-**POC Labs for network vendors and system integrators.** Spin up working demo environments in minutes instead of months. Sales engineers describe the customer environment — vendor mix, protocols, topology — and show prospects exactly how the product performs in their network. Tear it down after the call.
-
-**Change management sandbox for NetOps teams.** Import production configs to create a digital twin. Test routing policy changes, firewall updates, firmware upgrades, and failover scenarios in an isolated environment before touching live infrastructure. 68% of infrastructure outages come from configuration errors — validate changes before they reach production.
-
-**Research and evaluation environments for R&D teams.** Enterprise research groups, government labs, and financial infrastructure teams use NetPilot to evaluate new architectures, protocols, and vendor solutions without touching production. Ephemeral, auditable, multi-vendor — spin up a topology for a specific study, run the analysis, tear it down. Dedicated infrastructure available for sensitive workloads.
-
-### Multi-vendor by default
-
-Cisco IOL, Juniper cRPD, Arista cEOS, Nokia SR Linux, Palo Alto PAN-OS, Fortinet FortiGate, and FRR running side-by-side in a single topology. Real container images with full CLI access, not simulated abstractions.
-
-### How it works
-
-1. **Design.** Describe any topology in natural language — OSPF, MPLS L3VPN, BGP, leaf-spine — no diagrams or templates required
-2. **Configure.** AI generates production-grade vendor-specific configurations, ready to deploy
-3. **Deploy.** Real network OS instances run on isolated Containerlab infrastructure. SSH into any device, run show commands, debug protocols
-4. **Validate.** Routing tables, protocol adjacencies, end-to-end reachability — checked and diagnosed autonomously
-5. **Test.** Built-in iperf3 traffic generation validates throughput, latency, and failover behavior before anything touches production
-
-### Isolation and security
-
-Each lab runs in its own isolated Containerlab instance. No shared infrastructure between labs. Ephemeral by default — created on demand, destroyed when done. Data encrypted in transit and at rest. Enterprise customers can request dedicated infrastructure and SSO integration.
-
-### Resources
-
-- **Platform**: [netpilot.io](https://netpilot.io)
-- **Use cases**: [Change validation](https://netpilot.io/network-digital-twin) · [Pre-sales POCs](https://netpilot.io/for-software-vendors) · [Training labs](https://netpilot.io/for-training-providers)
-- **Documentation**: [netpilot.io/docs](https://netpilot.io/docs)
-- **Engineering blog**: [netpilot.io/blog](https://netpilot.io/blog)
-- **Enterprise inquiries**: contact@netpilot.io
-
-This organization hosts public resources for network teams evaluating or deploying NetPilot — reference topologies, integration patterns, and operator-facing documentation.
+<p align="center">
+  <a href="https://netpilot.io">Website</a> &middot;
+  <a href="https://netpilot.io/docs">Docs</a> &middot;
+  <a href="https://netpilot.io/blog">Blog</a> &middot;
+  <a href="https://x.com/netpilot_io">Twitter/X</a> &middot;
+  <a href="https://linkedin.com/company/netpilot-io">LinkedIn</a>
+</p>
 
 ---
 
-*NetPilot LLC · 6 Liberty Square #2747 · Boston, MA 02109*
+### What is NetPilot?
+
+NetPilot turns plain English into fully deployed network labs running real device CLIs. Describe a topology — OSPF, BGP, MPLS L3VPN, leaf-spine, firewall zones — and NetPilot generates vendor-specific configurations, deploys them to isolated cloud infrastructure, and validates everything is working. Minutes, not weeks.
+
+**Supported vendors:** Cisco IOL &middot; Juniper cRPD &middot; Arista cEOS &middot; Nokia SR Linux &middot; Palo Alto PAN-OS &middot; Fortinet FortiGate &middot; FRR
+
+### How it works
+
+```
+You: "Build a 3-router OSPF triangle with Cisco IOL, eBGP peering to an Arista spine"
+
+NetPilot:
+  ✓ Topology designed (5 nodes, 7 links)
+  ✓ Vendor configs generated (IOL + cEOS)
+  ✓ Lab deployed to isolated infrastructure
+  ✓ OSPF adjacencies verified, BGP session established
+  ✓ End-to-end reachability confirmed
+```
+
+### Who uses NetPilot
+
+| Team | Use case |
+|------|----------|
+| **NetOps** | Import production configs → build a digital twin → test changes before deployment |
+| **Sales Engineering** | Spin up customer-matching demo environments for POCs in minutes |
+| **R&D / Lab teams** | Evaluate new architectures, vendors, and protocols without touching production |
+| **Training providers** | Deliver hands-on multi-vendor labs to students at scale |
+
+### Resources
+
+| | |
+|---|---|
+| **Get started** | [netpilot.io](https://netpilot.io) |
+| **Documentation** | [netpilot.io/docs](https://netpilot.io/docs) |
+| **Blog** | [netpilot.io/blog](https://netpilot.io/blog) |
+| **Change validation** | [Network Digital Twin](https://netpilot.io/network-digital-twin) |
+| **For vendors** | [Pre-Sales POC Labs](https://netpilot.io/for-software-vendors) |
+| **For training** | [Training Provider Labs](https://netpilot.io/for-training-providers) |
+| **Enterprise** | [contact@netpilot.io](mailto:contact@netpilot.io) |
