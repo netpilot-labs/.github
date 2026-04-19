@@ -12,7 +12,7 @@
   <a href="https://netpilot.io">Website</a> &middot;
   <a href="https://netpilot.io/docs">Docs</a> &middot;
   <a href="https://netpilot.io/blog">Blog</a> &middot;
-  <a href="https://x.com/netpilotlabs">Twitter/X</a> &middot;
+  <a href="https://x.com/netpilotio">Twitter/X</a> &middot;
   <a href="https://linkedin.com/company/netpilot-io">LinkedIn</a>
 </p>
 
