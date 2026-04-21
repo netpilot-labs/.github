@@ -58,4 +58,6 @@ NetPilot:
 | **Change validation** | [Network Digital Twin](https://www.netpilot.io/network-digital-twin) |
 | **For vendors** | [Pre-Sales POC Labs](https://www.netpilot.io/for-software-vendors) |
 | **For training** | [Training Provider Labs](https://www.netpilot.io/for-training-providers) |
+| **Research & R&D** | [Network Research Lab](https://www.netpilot.io/network-research-lab) — cross-vendor bug repro, protocol research, outage forensics |
+| **Best platforms 2026** | [Best Network Research Lab Platforms in 2026](https://www.netpilot.io/blog/best-network-research-lab-2026) — tier-ranked comparison |
 | **Enterprise** | [contact@netpilot.io](mailto:contact@netpilot.io) |
