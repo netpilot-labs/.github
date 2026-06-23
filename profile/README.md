@@ -61,3 +61,11 @@ NetPilot:
 | **Research & R&D** | [Network Research Lab](https://www.netpilot.io/network-research-lab) — cross-vendor bug repro, protocol research, outage forensics |
 | **Best platforms 2026** | [Best Network Research Lab Platforms in 2026](https://www.netpilot.io/blog/best-network-research-lab-2026) — tier-ranked comparison |
 | **Enterprise** | [contact@netpilot.io](mailto:contact@netpilot.io) |
+
+---
+
+<p align="center">
+  <strong>Follow along</strong> — new multi-vendor labs, change-validation walkthroughs, and product updates on
+  <a href="https://www.linkedin.com/company/netpilot"><strong>LinkedIn</strong></a> &middot;
+  <a href="https://x.com/netpilotio">X</a>
+</p>
